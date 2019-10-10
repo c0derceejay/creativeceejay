@@ -12,7 +12,7 @@ html{
 body{
     height: 100%;
     width: 100%;
-    background: url("sitebg.jpg") no-repeat center fixed;
+    background: url("spacey.jpeg") no-repeat center fixed;
     background-size: cover;
 }
 section{
@@ -120,7 +120,7 @@ li{
 }
 .nav-link:hover, 
 .nav-link:focus{
-    background: linear-gradient(to top, #ffe838, #fd57bf);
+    background: linear-gradient(to top, #5edfff, #ecfcff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -151,7 +151,7 @@ li{
 
 /* BAR EDITING */
 .bar{
-    background: linear-gradient(to right, #ffe838, #fd57bf);
+    background: linear-gradient(to right, #5edfff, #ecfcff);
     width: 100%;
     height: 4px;
     border-radius: .8rem;
@@ -186,7 +186,7 @@ li{
 .landing-text h1{
     font-size: 15rem;
     font-family: sans-serif;
-    background: linear-gradient(to top, #ffe838, #fd57bf);
+    background: linear-gradient(to top, #5edfff, #ecfcff);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 1rem;
@@ -266,14 +266,14 @@ li{
 .icon-container{
     width: 10rem;
     height: 10rem;
-    border: 3px solid #ffe838; 
-    background-color: #fd57bf;
+    border: 3px solid #ecfcff; 
+    background-color: #5edfff;
     margin-bottom: 2rem;
     display: flex;
     transform: rotate(45deg);
 }
 .icon-container i{
-    color: #ffe838;
+    color: #000;
     font-size: 5rem;
     margin: auto;
     transform: rotate(-45deg);
@@ -323,7 +323,7 @@ li{
 
 /*Start timeline*/
 .timeline ul{
-    border-left: 4px solid #ffe838;
+    border-left: 4px solid #ecfcff;
     border-radius: .8rem;
     background-color: rgba(0, 0, 0, .05);
     margin: 0 auto;
@@ -368,18 +368,18 @@ li{
 }
 .timeline .date::after{
     content: '';
-    box-shadow: 0 0 0 4px #fd57bf;
+    box-shadow: 0 0 0 4px #5edfff;
     border-radius: 100%;
     left: -7.7rem;
     height: 1.5rem;
     width: 1.5rem;
-    background-color: #313534;
+    background-color: #ecfcff;
 }
 /*End timeline*/
 
 /*Start contact*/
 .contact{
-    background-color: #221e3f;
+    background-color: #233567;
 }
 form{
     width: 70%;
@@ -395,12 +395,12 @@ textarea{
     padding: 1rem;
     margin-bottom: 5px;
     border: none;
-    outline-color: #fd57bf;
+    outline-color: #5edfff;
 }
 input[type="submit"]{
     width: initial;
-    background-color: #fd57bf;
-    color: #eee;
+    background-color: #5edfff;
+    color: #000;
     padding: 1rem 2rem;
     border-radius: .8rem;
     cursor: pointer;
@@ -408,7 +408,7 @@ input[type="submit"]{
 }
 input[type="submit"]:hover{
     color: #221e3f;
-    background-color: #ffe838;
+    background-color: #16162d;
 
 }
 /*End contact*/
