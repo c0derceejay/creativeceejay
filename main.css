@@ -13,7 +13,7 @@ html{
 body{
     height: 100%;
     width: 100%;
-    background: "sitebg.jpg" no-repeat center fixed;
+    background: url("sitebg.jpg") no-repeat center fixed;
     background-size: cover;
 }
 section{
@@ -185,7 +185,7 @@ li{
     z-index: 1;
 }
 .landing-text h1{
-    font-size: 20rem;
+    font-size: 15rem;
     font-family: sans-serif;
     background: linear-gradient(to top, #ffe838, #fd57bf);
     -webkit-background-clip: text;
@@ -461,7 +461,7 @@ input[type="submit"]:hover{
 /*Start media queries*/
 @media screen and (max-width: 768px){
     body{
-        background: "sitebg2.jpg" no-repeat center fixed;
+        background: url("sitebg2.jpg") no-repeat center fixed;
         background-size: cover;
     }
     .landing-text h2{
