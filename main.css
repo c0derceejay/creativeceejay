@@ -460,7 +460,7 @@ input[type="submit"]:hover{
 /*Start media queries*/
 @media screen and (max-width: 768px){
     body{
-        background: url("sitebg2.jpg") no-repeat center fixed;
+        background: url("spacey.jpeg") no-repeat center fixed;
         background-size: cover;
     }
     .landing-text h2{
